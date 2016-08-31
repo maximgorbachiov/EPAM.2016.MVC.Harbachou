@@ -1,0 +1,5 @@
+D:\Study\EPAM\Laba\MVC\Routing_Task1\ViewLib\bin\Debug\ViewLib.dll
+D:\Study\EPAM\Laba\MVC\Routing_Task1\ViewLib\bin\Debug\ViewLib.pdb
+D:\Study\EPAM\Laba\MVC\Routing_Task1\ViewLib\obj\Debug\ViewLib.csprojResolveAssemblyReference.cache
+D:\Study\EPAM\Laba\MVC\Routing_Task1\ViewLib\obj\Debug\ViewLib.dll
+D:\Study\EPAM\Laba\MVC\Routing_Task1\ViewLib\obj\Debug\ViewLib.pdb

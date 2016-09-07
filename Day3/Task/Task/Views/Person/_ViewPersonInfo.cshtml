@@ -1,0 +1,22 @@
+﻿@model Task.Models.PersonInfoModel
+    
+<div>
+    <input type="hidden" name="Id" value="@Model.Id" />
+
+    <div class="text-center row">
+        @if (Model.Side)
+        {
+            <p>Lights</p>
+        }
+        else
+        {
+            <p>Darks</p>
+        }
+        <div>
+            <p>Name: @Model.Name</p>
+            <p>Age: @Model.Age</p>
+            <p>Rank: @Model.Rank</p>
+        </div>
+    </div>
+</div>
+

@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonLib", "JsonLib\JsonLib.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC", "MVC\MVC.csproj", "{A3D244F2-898A-4739-935B-633578BA8715}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{2EAA3C06-C288-4C90-88AA-B75B12FBB111}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A3D244F2-898A-4739-935B-633578BA8715}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3D244F2-898A-4739-935B-633578BA8715}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3D244F2-898A-4739-935B-633578BA8715}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EAA3C06-C288-4C90-88AA-B75B12FBB111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EAA3C06-C288-4C90-88AA-B75B12FBB111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EAA3C06-C288-4C90-88AA-B75B12FBB111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EAA3C06-C288-4C90-88AA-B75B12FBB111}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

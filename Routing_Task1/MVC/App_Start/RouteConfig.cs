@@ -16,7 +16,7 @@ namespace MVC
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
-            /*routes.MapRoute(
+            routes.MapRoute(
                 name: "Custom",
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Custom", action = "Index", id = UrlParameter.Optional },
@@ -26,7 +26,7 @@ namespace MVC
 
             routes.MapRoute(
                 name: "Static",
-                url: "Custom/{action}/{id}",
+                url: "Static/{id}",
                 defaults: new { controller = "Custom", action = "Index", id = UrlParameter.Optional },
                 namespaces: new[] { "MVC.Controllers.StaticControllers" },
                 constraints: new { id = new CompoundRouteConstraint(
@@ -42,19 +42,13 @@ namespace MVC
                 name: "Default",
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
-            );*/
+            );
 
-            var constraintsResolver = new DefaultInlineConstraintResolver();
+            /*var constraintsResolver = new DefaultInlineConstraintResolver();
 
             constraintsResolver.ConstraintMap.Add("interval", typeof(IdIntervalConstraint));
 
-            routes.MapMvcAttributeRoutes(constraintsResolver);
-
-            routes.MapRoute(
-                name: "Default",
-                url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
-            );
+            routes.MapMvcAttributeRoutes(constraintsResolver);*/
         }
     }
 }

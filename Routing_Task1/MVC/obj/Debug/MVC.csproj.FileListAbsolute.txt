@@ -61,7 +61,6 @@ D:\Study\EPAM\Laba\MVC\Routing_Task1\MVC\bin\System.Web.WebPages.xml
 D:\Study\EPAM\Laba\MVC\Routing_Task1\MVC\bin\System.Web.WebPages.Deployment.xml
 D:\Study\EPAM\Laba\MVC\Routing_Task1\MVC\bin\System.Web.WebPages.Razor.xml
 D:\Study\EPAM\Laba\MVC\Routing_Task1\MVC\bin\Antlr3.Runtime.pdb
-D:\Study\EPAM\Laba\MVC\Routing_Task1\MVC\bin\Newtonsoft.Json.xml
 D:\Study\EPAM\Laba\MVC\Routing_Task1\MVC\bin\EntityFramework.xml
 D:\Study\EPAM\Laba\MVC\Routing_Task1\MVC\bin\EntityFramework.SqlServer.xml
 D:\Study\EPAM\Laba\MVC\Routing_Task1\MVC\bin\Microsoft.AspNet.Identity.Core.xml
@@ -76,6 +75,6 @@ D:\Study\EPAM\Laba\MVC\Routing_Task1\MVC\bin\Microsoft.Owin.Security.OAuth.xml
 D:\Study\EPAM\Laba\MVC\Routing_Task1\MVC\bin\Microsoft.Owin.Security.Google.xml
 D:\Study\EPAM\Laba\MVC\Routing_Task1\MVC\bin\Microsoft.Owin.Security.Twitter.xml
 D:\Study\EPAM\Laba\MVC\Routing_Task1\MVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-D:\Study\EPAM\Laba\MVC\Routing_Task1\MVC\obj\Debug\MVC.csprojResolveAssemblyReference.cache
 D:\Study\EPAM\Laba\MVC\Routing_Task1\MVC\obj\Debug\MVC.dll
 D:\Study\EPAM\Laba\MVC\Routing_Task1\MVC\obj\Debug\MVC.pdb
+D:\Study\EPAM\Laba\MVC\Routing_Task1\MVC\obj\Debug\MVC.csprojResolveAssemblyReference.cache

@@ -8,7 +8,7 @@ namespace MVC.Controllers
 {
     public class HomeController : Controller
     {
-        [Route("Home")]
+        [Route("")]
         public ActionResult Index()
         {
             return View();

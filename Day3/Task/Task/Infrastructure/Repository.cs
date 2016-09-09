@@ -5,7 +5,7 @@ namespace Task.Infrastructure
 {
     public class Repository
     {
-        private List<Person> persons = new List<Person>();
+        private readonly List<Person> persons = new List<Person>();
         private int currentId;
 
         public Repository()
@@ -48,10 +48,12 @@ namespace Task.Infrastructure
             AddPerson(badSoldier);
         }
 
-        public void AddPerson(Person person)
+        public int AddPerson(Person person)
         {
             person.Id = currentId++;
             persons.Add(person);
+
+            return person.Id;
         }
 
         public void RemovePerson(Person person)
@@ -62,6 +64,23 @@ namespace Task.Infrastructure
         public Person FindPersonById(int id)
         {
             return persons.FirstOrDefault(person => person.Id == id);
+        }
+
+        public List<Person> GetAll()
+        {
+            return persons;
+        }
+
+        public void Save(Person personSideState)
+        {
+            foreach (var person in persons)
+            {
+                if (person.Id == personSideState.Id)
+                {
+                    person.Side = personSideState.Side;
+                    break;
+                }
+            }
         }
     }
 

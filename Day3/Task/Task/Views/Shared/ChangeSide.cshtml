@@ -1,0 +1,40 @@
+﻿@model Task.Models.PersonInfoModel
+
+@{
+    ViewBag.Title = "Change side model";
+}
+
+<div id="changeSidePage"></div>
+
+@if (Model != null)
+{
+    <input type="hidden" id="side" value="@Model.Side">
+
+    @section navbarSection{
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <div id="sideName"></div>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav"></ul>
+                </div>
+            </div>
+        </div>
+    }
+
+    <div>
+        @{ 
+            Html.RenderPartial("~/Views/Person/_ViewPersonInfo.cshtml", Model);
+        }
+    </div>
+
+    @Html.Action("ViewChangeSide", new { model = Model })
+}
+else
+{
+    <div>
+        Such person is absent
+    </div>
+}
+

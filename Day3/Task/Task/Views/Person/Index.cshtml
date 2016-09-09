@@ -1,0 +1,14 @@
+﻿@model List<Task.Models.PersonInfoModel>
+
+@foreach (var person in Model)
+{
+    <div>
+        <h4>
+            @Html.ActionLink(person.Name, "ChangeSide", new { id = person.Id })
+        </h4>
+    </div>
+}
+
+<h4>
+    @Html.ActionLink("Create person", "Create")
+</h4>

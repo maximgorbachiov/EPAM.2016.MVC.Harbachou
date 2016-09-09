@@ -127,11 +127,12 @@
     <Content Include="scripts\bootstrap.js" />
     <Content Include="scripts\bootstrap.min.js" />
     <None Include="scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="scripts\client.js" />
     <Content Include="scripts\jquery-1.10.2.js" />
     <Content Include="scripts\jquery-1.10.2.min.js" />
     <Content Include="scripts\modernizr-2.6.2.js" />
     <Content Include="Web.config" />
-    <Content Include="Views\Shared\Index.cshtml" />
+    <Content Include="Views\Shared\ChangeSide.cshtml" />
     <Content Include="Views\Person\_ViewPersonInfo.cshtml" />
   </ItemGroup>
   <ItemGroup>
@@ -140,6 +141,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Infrastructure\MultipleButtonAttribute.cs" />
     <Compile Include="Infrastructure\Repository.cs" />
     <Compile Include="Mappers\PersonMapper.cs" />
     <Compile Include="Models\PersonInfoModel.cs" />
@@ -158,6 +160,9 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\Person\Create.cshtml" />
+    <Content Include="Views\Person\Index.cshtml" />
+    <None Include="Views\Person\ViewChangeSide.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -41,6 +41,5 @@ D:\Study\EPAM\Laba\MVC\Day3\Task\Task\bin\System.Web.Webpages.Deployment.xml
 D:\Study\EPAM\Laba\MVC\Day3\Task\Task\bin\System.Web.Webpages.Razor.xml
 D:\Study\EPAM\Laba\MVC\Day3\Task\Task\bin\System.Web.Helpers.xml
 D:\Study\EPAM\Laba\MVC\Day3\Task\Task\bin\System.Web.Mvc.xml
-D:\Study\EPAM\Laba\MVC\Day3\Task\Task\obj\Debug\Task.csprojResolveAssemblyReference.cache
 D:\Study\EPAM\Laba\MVC\Day3\Task\Task\obj\Debug\Task.dll
 D:\Study\EPAM\Laba\MVC\Day3\Task\Task\obj\Debug\Task.pdb

@@ -16,3 +16,18 @@ textarea {
     max-width: 280px;
 }
 
+.light-side-background-color {
+    background: white;
+    color: black;
+}
+
+.dark-side-background-color {
+    background: black;
+    color: white;
+}
+
+#sideName {
+    font-size: 35px;
+}
+
+

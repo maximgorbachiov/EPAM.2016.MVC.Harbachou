@@ -1,0 +1,125 @@
+﻿@model Task.Models.User
+
+@if (Model == null)
+{
+    using (Html.BeginForm())
+    {
+        <div class="row">
+            <div class="row">
+                @Html.LabelFor(model => model.UserId, new {@class = "control-label"})
+                @Html.EditorFor(model => model.UserId, new {htmlAttributes = new {@class = "form-control"}})
+            </div>
+
+            <div class="row">
+                @Html.LabelFor(model => model.FirstName, new {@class = "control-label"})
+                @Html.EditorFor(model => model.FirstName, new {htmlAttributes = new {@class = "form-control"}})
+            </div>
+
+            <div class="row">
+                @Html.LabelFor(model => model.LastName, new {@class = "control-label"})
+                @Html.EditorFor(model => model.LastName, new {htmlAttributes = new {@class = "form-control"}})
+            </div>
+
+            <div class="row">
+                @Html.LabelFor(model => model.BirthDate, new { @class = "control-label" })
+                @Html.EditorFor(model => model.BirthDate, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+
+            <div class="row">
+                @Html.LabelFor(model => model.Role, new {@class = "control-label"})
+                @Html.EditorFor(model => model.Role, new {htmlAttributes = new {@class = "form-control"}})
+            </div>
+
+            <div>
+                @Html.LabelFor(model => model.HomeAddress.City, new {@class = "control-label"})
+                @Html.EditorFor(model => model.HomeAddress.City, new {htmlAttributes = new {@class = "form-control"}})
+            </div>
+
+            <div>
+                @Html.LabelFor(model => model.HomeAddress.Country, new { @class = "control-label" })
+                @Html.EditorFor(model => model.HomeAddress.Country, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+
+            <div>
+                @Html.LabelFor(model => model.HomeAddress.Line1, new { @class = "control-label" })
+                @Html.EditorFor(model => model.HomeAddress.Line1, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+
+            <div>
+                @Html.LabelFor(model => model.HomeAddress.Line2, new {@class = "control-label"})
+                @Html.EditorFor(model => model.HomeAddress.Line2, new {htmlAttributes = new {@class = "form-control"}})
+            </div>
+
+            <div>
+                @Html.LabelFor(model => model.HomeAddress.PostalCode, new { @class = "control-label" })
+                @Html.EditorFor(model => model.HomeAddress.PostalCode, new { htmlAttributes = new { @class = "form-control" } })
+            </div>
+
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Create" class="btn btn-primary"/>
+                </div>
+            </div>
+        </div>
+    }
+}
+else
+{
+    <div class="row">
+        <div class="row">
+            @Html.LabelFor(model => model.UserId, new { @class = "control-label" })
+            @Html.DisplayFor(model => model.UserId, new { htmlAttributes = new { @class = "form-control" } })
+        </div>
+
+        <div class="row">
+            @Html.LabelFor(model => model.FirstName, new { @class = "control-label" })
+            @Html.DisplayFor(model => model.FirstName, new { htmlAttributes = new { @class = "form-control" } })
+        </div>
+
+        <div class="row">
+            @Html.LabelFor(model => model.LastName, new {@class = "control-label"})
+            @Html.DisplayFor(model => model.LastName, new {htmlAttributes = new {@class = "form-control"}})
+        </div>
+
+        <div class="row">
+            @Html.LabelFor(model => model.BirthDate, new { @class = "control-label" })
+            @Html.DisplayFor(model => model.BirthDate, new { htmlAttributes = new { @class = "form-control" } })
+        </div>
+
+        <div class="row">
+            @Html.LabelFor(model => model.Role, new {@class = "control-label"})
+            @Html.DisplayFor(model => model.Role, new {htmlAttributes = new {@class = "form-control"}})
+        </div>
+
+        <div>
+            @Html.LabelFor(model => model.HomeAddress.City, new { @class = "control-label" })
+            @Html.DisplayFor(model => model.HomeAddress.City, new { htmlAttributes = new { @class = "form-control" } })
+        </div>
+
+        <div>
+            @Html.LabelFor(model => model.HomeAddress.Country, new {@class = "control-label"})
+            @Html.DisplayFor(model => model.HomeAddress.Country, new {htmlAttributes = new {@class = "form-control"}})
+        </div>
+
+        <div>
+            @Html.LabelFor(model => model.HomeAddress.Line1, new { @class = "control-label" })
+            @Html.DisplayFor(model => model.HomeAddress.Line1, new { htmlAttributes = new { @class = "form-control" } })
+        </div>
+
+        <div>
+            @Html.LabelFor(model => model.HomeAddress.Line2, new {@class = "control-label"})
+            @Html.DisplayFor(model => model.HomeAddress.Line2, new {htmlAttributes = new {@class = "form-control"}})
+        </div>
+
+        <div>
+            @Html.LabelFor(model => model.HomeAddress.PostalCode, new {@class = "control-label"})
+            @Html.DisplayFor(model => model.HomeAddress.PostalCode, new {htmlAttributes = new {@class = "form-control"}})
+        </div>
+
+        <div>
+            @Html.LabelFor(model => model.HomeAddress.AddressSummary, new { @class = "control-label" })
+            @Html.DisplayFor(model => model.HomeAddress.AddressSummary, new { htmlAttributes = new { @class = "form-control" } })
+        </div>
+    </div>
+}
+
